@@ -3,7 +3,7 @@ h1 {
 }
 main {
   background: url('../images/yard.png');
-  width: 1024px;
+  width: 100%;
   margin: 0 auto;
   height: 100%;
 }
@@ -39,3 +39,5 @@ main {
   top: 120px;
   right: 330px;
 }
+
+

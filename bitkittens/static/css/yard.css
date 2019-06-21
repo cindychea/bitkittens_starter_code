@@ -8,7 +8,7 @@ h1 {
 
 main {
   background: url('../images/yard.png') no-repeat;
-  width: 1024px;
+  width: 100%;
   margin: 0 auto;
   height: 100%;
   position: relative;
@@ -44,5 +44,21 @@ main {
 #cat5 {
   top: 120px;
   right: 330px;
+}
+
+#cat-book {
+  position: relative;
+  top: 70px;
+  left: 100px;
+  width: 300px;
+  color: #fff;
+  max-height: 230px;
+  overflow: scroll;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+#cat-book-list li {
+  list-style-type: none;
 }
 
