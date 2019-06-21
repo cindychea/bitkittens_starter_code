@@ -37,6 +37,22 @@ document.addEventListener("DOMContentLoaded", function() {
                         catCount.innerText = key, catCounter[key];
                         catBookList.appendChild(catCount);
             });
+
+            let catOne = document.getElementById('cat1');
+
+            let count = 0;
+            const interval = setInterval(function() {
+                count ++
+                if (count === 100) {
+                    clearInterval(interval)
+                } else {
+                    catOne.style.position = 'relative';
+                    console.log(parseInt(catOne.style.left) + 1)
+                    catOne.style.left = (parseInt(catOne.style.left) + 1) + 'px'
+                    console.log(catOne.style.left)
+                }
+            }, 20)
+
         })
         .catch(error => {
             console.log(error);

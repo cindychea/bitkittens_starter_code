@@ -47,7 +47,7 @@ main {
 }
 
 #cat-book {
-  position: relative;
+  position: absolute;
   top: 70px;
   left: 100px;
   width: 300px;
